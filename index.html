@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kopi Wartis</title>
+    <title>budi coffeeshop</title>
 
 
     <!-- Fonts -->
@@ -23,29 +23,67 @@
     
     <!-- Navbar Start -->
     <nav class="navbar">
-        <a href="#" class="navbar-logo">Kopi<span>Wartis</span>.</a>
+        <a href="#" class="navbar-logo">kopi <span>budi</span>.</a>
     
         <div class="navbar-nav">
             <a href="#home">home</a>            
             <a href="#about">tentang kami</a>
             <a href="#menu">menu</a>
+            <a href="#products">Produk</a>
             <a href="#contact">kontak</a>
 
         </div>
 
         <div class="navbar-extra">
-            <a href="#" id="search"><i data-feather="search"></i></a>
-            <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+            <a href="#" id="search-button"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
             <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
 
         </div>
+
+        <!-- Search Form start -->
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+        
+        <!-- Search Form end -->
+
+        <!-- Shopping cart start -->
+        <div class="shopping-cart">
+            <div class="cart-item">
+                <img src="folder.img/products/pg1.jpg" alt="Product 1">
+                <div class="item-detail">
+                    <h3>Product 1</h3>
+                    <div class="item-price">IDR 30K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+                <img src="folder.img/products/pg1.jpg" alt="Product 1">
+                <div class="item-detail">
+                    <h3>Product 1</h3>
+                    <div class="item-price">IDR 30K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+                <img src="folder.img/products/pg1.jpg" alt="Product 1">
+                <div class="item-detail">
+                    <h3>Product 1</h3>
+                    <div class="item-price">IDR 30K</div>
+                </div>
+                <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+        <!-- Shopping cart end -->
+
     </nav>
     <!-- Navbar End -->
 
     <!-- Hero Section start -->
     <section class="hero" id="home">
         <main class="content">
-            <h1>Gas Ngopi di<span>Wartis</span></h1>
+            <h1>nikmati hari di kopi<span>budi</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, illo.</p>
             <a href="#" class="cta">Beli Sekarang</a>
         </main>
@@ -61,7 +99,7 @@
                 <img src="folder.img/Tentang Kami.jpg" alt="Tentang Kami">
             </div>
             <div class="content">
-                <h3>Kenapa memilih kopi kami</h3>
+                <h3>Kenapa memilih kopi<span>budi</span></h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores incidunt fugit iste dicta consequuntur doloremque.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus reiciendis labore voluptatibus laudantium itaque unde saepe. Magni hic, provident voluptatibus quod consectetur deserunt.</p>
         </div>
@@ -75,47 +113,109 @@
         <div class="row">
             <div class="menu-card">
                 <img src="folder.img/menu/1.jpg"
-                alt="Kopi Hideung" class="menu-card-img">
-                <h3 class="menu-card-title">-Kopi Hideung</h3>
-                <p class="menu-card-price">IDR 3k</p>
+                alt="Kopi Hitam" class="menu-card-img">
+                <h3 class="menu-card-title">-kopi HITAM</h3>
+                <p class="menu-card-price">IDR 5k</p>
             </div>
             <div class="menu-card">
-                <img src="folder.img/menu/1.jpg"
+                <img src="folder.img/menu/2.jpg"
                 alt="Kopi Hideung" class="menu-card-img">
-                <h3 class="menu-card-title">-Kopi Hideung</h3>
-                <p class="menu-card-price">IDR 3k</p>
+                <h3 class="menu-card-title">--americano</h3>
+                <p class="menu-card-price">IDR 10k</p>
             </div>
             <div class="menu-card">
-                <img src="folder.img/menu/1.jpg"
+                <img src="folder.img/menu/3.jpg"
                 alt="Kopi Hideung" class="menu-card-img">
-                <h3 class="menu-card-title">-Kopi Hideung</h3>
-                <p class="menu-card-price">IDR 3k</p>
+                <h3 class="menu-card-title">-latte</h3>
+                <p class="menu-card-price">IDR 20k</p>
             </div>
             <div class="menu-card">
-                <img src="folder.img/menu/1.jpg"
+                <img src="folder.img/menu/4.jpg"
                 alt="Kopi Hideung" class="menu-card-img">
-                <h3 class="menu-card-title">-Kopi Hideung</h3>
-                <p class="menu-card-price">IDR 3k</p>
+                <h3 class="menu-card-title">-lokakopi</h3>
+                <p class="menu-card-price">IDR 15k</p>
             </div>
             <div class="menu-card">
-                <img src="folder.img/menu/1.jpg"
+                <img src="folder.img/menu/5.jpg"
                 alt="Kopi Hideung" class="menu-card-img">
-                <h3 class="menu-card-title">-Kopi Hideung</h3>
-                <p class="menu-card-price">IDR 3k</p>
+                <h3 class="menu-card-title">-espresso</h3>
+                <p class="menu-card-price">IDR 12k</p>
             </div>
             <div class="menu-card">
-                <img src="folder.img/menu/1.jpg"
+                <img src="folder.img/menu/6.jpg"1
                 alt="Kopi Hideung" class="menu-card-img">
-                <h3 class="menu-card-title">-Kopi Hideung</h3>
-                <p class="menu-card-price">IDR 3k</p>
+                <h3 class="menu-card-title">-kopi gula aren</h3>
+                <p class="menu-card-price">IDR 15k</p>
+            </div>
+            <div class="menu-card">
+                <img src="folder.img/menu/7.jpg"1
+                alt="Kopi Hideung" class="menu-card-img">
+                <h3 class="menu-card-title">-ginger coffee</h3>
+                <p class="menu-card-price">IDR 18k</p>
+            </div>
+            <div class="menu-card">
+                <img src="folder.img/menu/8.jpg"1
+                alt="Kopi Hideung" class="menu-card-img">
+                <h3 class="menu-card-title">-kopi luwak</h3>
+                <p class="menu-card-price">IDR 20k</p>
             </div>
         </div>
     </section>
     <!-- Menu Section end -->
 
+    <!-- Product Section start -->
+        <section class="products" id="products">
+            <h2>Produk Unggulan <span>Kami</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem molestias ullam at vitae eveniet molestiae eaque?</p>
+        <div class="row">
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="folder.img/products/pg1.jpg" alt="product 1">
+                </div>
+                <div class="product-content">
+                    <h3>Robusta</h3>
+                    <div class="product-stars">
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                    </div>
+                </div>
+            <div class="product-price">IDR 35k <span>IDR 50K</span> </div>
+
+        </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#"class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="folder.img/products/pg1.jpg" alt="product 1">
+                </div>
+                <div class="product-content">
+                    <h3>Arabica</h3>
+                    <div class="product-stars">
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star"></i>
+                    </div>
+                </div>
+            <div class="product-price">IDR 30K <SPAN>IDR 55k</SPAN></div>
+        </div>
+        </div>
+        </section>
+    <!-- Product Section end -->
+
     <!-- Contact Section start -->
     <section id="contact" class="contact">
-        <h2><span>Kontak</span> Kami</h2>
+        <h2>Kontak<span>Kami</span></h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, neque. </p>
         
         <div class="row">
@@ -161,6 +261,30 @@
         </footer>
     <!-- Footer end -->
 
+        <!-- Modal Box Item Detail start -->
+        <div class="modal" id="item-detail-modal">
+            <div class="modal-container">
+                <a href="#" class="close-icon"><i data-feather="x"></i></a>
+                <div class="modal-content">
+                    <img src="folder.img/products/pg1.jpg" alt="Product 1">
+                    <div class="product-content">
+                        <h3>Product 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates illo obcaecati distinctio doloremque delectus, excepturi explicabo voluptatem nisi aspernatur voluptate quas cumque perferendis amet ullam optio ea rerum molestiae nesciunt!</p>
+                        <div class="product-stars">
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                        </div>
+                        <div class="product-price"> IDR 30K <span>IDR 55k</span></div>
+                        <a  href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Box Item Detail end -->
+
     <!-- Feather Icons -->
     <script>
         feather.replace()
@@ -170,3 +294,5 @@
       <script src="js/script.js"></script>
 </body> 
 </html>
+
+<!-- video 1.07.55 tapi harus diulang dari shopping cart -->
